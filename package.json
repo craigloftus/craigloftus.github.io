@@ -1,0 +1,12 @@
+{
+	"name": "craigloftus.net",
+	"version": "0.0.0",
+	"private": true,
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-less": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-contrib-copy": "*",
+		"grunt-contrib-uglify": "*"
+	}
+}

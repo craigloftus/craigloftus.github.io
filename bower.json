@@ -1,0 +1,7 @@
+{
+	"name": "craigloftus.net",
+	"private": true,
+	"dependencies": {
+		"bootstrap": "3.x"
+	}
+}

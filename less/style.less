@@ -1,0 +1,196 @@
+@dark-grey: #2f2d2c;
+@black: #0f0e0d;
+@white: #f0f1f0;
+@maroon: #911400;
+
+.banner {
+	padding: 3px 5px;
+	background: @dark-grey repeat-x;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	background: -webkit-linear-gradient(top, lighten(@dark-grey, 20%), @dark-grey);
+	background: -moz-linear-gradient(top, lighten(@dark-grey, 20%), @dark-grey);
+	background: -ms-linear-gradient(top, lighten(@dark-grey, 20%), @dark-grey);
+}
+
+#guide {
+	margin: 0 0 1.5em 0;
+	.banner;
+}
+
+#description {
+	font-size: 85%;
+	padding: 3px;
+	margin: 0 0.5em;
+
+	a {
+		color: @white;
+	}
+}
+
+#primary {
+	a img{
+		border:none;
+	}
+
+	dt:after {
+		content:": ";
+	}
+
+	table {
+		border: 0.05em solid @black;
+		td, th {
+			border:0.05em solid @black;
+			border-collapse:collapse;
+			padding: 0em 0.5em;
+		}
+		th {
+			font-style:italic;
+		}
+		caption, .caption {
+			font-style:italic;
+			margin:0 auto;
+		}
+	}
+}
+
+#mine {
+	ul {
+		list-style: none;
+
+		li p {
+			margin-top: 0.2em;
+		}
+	}
+}
+
+.post {
+    margin-bottom: 1em;
+    p, ul, ol, h4 {
+        margin: 1em;
+    }
+
+    &.documents ul {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+
+        li {
+            margin-bottom: 0.5em;
+        }
+    }
+}
+
+#blog ul{
+	padding-left: 0.8em;
+}
+
+#page_info dl {
+	margin: 1em 0.5em;
+	dd {
+		margin-left: 2em;
+	}
+}
+
+#heading {
+	padding-bottom: 0.3em;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	padding-left: 0.2em;
+}
+
+h2, h3 {
+	font-weight: normal;
+	.banner;
+}
+
+#skip_links {
+	margin-top: 0;
+	list-style: none;
+	a {
+		color:#c6c6c6;
+		text-decoration: underline !important;
+	}
+	li {
+		display: inline;
+		margin: 0.2em;
+	}
+}
+
+#menu {
+	h3 {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	ul.menu{
+		text-align: right;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		li{
+			font-size: 150%;
+			border-bottom: 0.05em solid white;
+			margin: 0;
+			padding: 0.4em;
+
+			a {
+				color: @black;
+				&:hover {
+					color: @maroon;
+				}
+			}
+		}
+	}
+}
+
+dt {
+	font-weight:bold;
+}
+.reference, .note {
+	vertical-align:super;
+}
+
+/* Background */
+html, body, #primary h2.pagetitle {
+	background: @black;
+}
+#mine, #others, .post, #secondary div, #blog h3, #heading, #primary var {
+	background: @white;
+}
+
+html {
+	color: @black;
+}
+h2, h3, div#guide, div#primary div.post div.header {
+	color: @white;
+}
+
+h1 a {
+	color: @black;
+	&:hover {
+		color: @black;
+	}
+}
+
+h3 a {
+	color: @white;
+	&:hover {
+		color: @white;
+		text-decoration: none;
+	}
+}
+
+/* Borders */
+#secondary div, #mine, #others, .post, #comment_box {
+	border: 1px solid @white;
+}
+
+.read-more {
+    text-decoration: underline;
+}
