@@ -22,6 +22,7 @@ by tasting as you go and deciding what you want more/less of.
 * Cumin seeds - 1&nbsp;tsp
 * Salt - ½&nbsp;tsp
 * Sugar - 1&nbsp;tsp
+* Lemon juice - 2&nbsp;tbsp
 
 ### Preparation
 
@@ -30,8 +31,8 @@ together
 
 ### Instructions
 
-1. Crush or blend everything together
+1. Crush or blend everything (except the lemon juice) together
     * Don't pulverise it, just enough to have everything bind together
 2. Then add about 2 tablespoons lemon juice
     * Don't add the lemon until the end otherwise you will lose the green of
-    the chillis
+    the chillis apparently
