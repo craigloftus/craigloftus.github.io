@@ -36,5 +36,5 @@ A crude but satisfying sausage casserole. Serves 4 and takes about 70 min.
 3. Add the tomato, bulgar wheat and stock
 4. Bring to the boil, then cover and simmer for 30&nbsp;min
 5. Use water to adjust the consistency if necessary
-6. Add the sausages
+6. If using vegetarian sausages, add those now
 7. Simmer for a further 30&nbsp;min, or until you get hungry/bored
